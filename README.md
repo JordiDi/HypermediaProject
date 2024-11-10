@@ -36,3 +36,6 @@ Layout and Responsiveness: The layout is centered and uses consistent spacing fo
 Interactive Elements: Hover effects are added to navigation links, skill bars, and portfolio items, providing visual feedback to users. Buttons have a smooth transition effect, enhancing the overall user experience.
 Use of Imagery: Project thumbnails and a profile photo add a personal touch and provide visual context to the projects showcased in the portfolio section.
 The design aims to provide a professional and engaging experience for recruiters, potential clients, and collaborators.
+
+**Link to Figma Project**
+https://www.figma.com/design/VYDoOwRBR4upBebojrp1My/Untitled?node-id=1-252&t=zMCy2PALGbpFex46-1
