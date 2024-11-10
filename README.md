@@ -1,9 +1,9 @@
 # HypermediaProject
 Jane Doe - Front-End Developer Portfolio
-Project Overview
+**Project Overview**
 This is a personal portfolio website for Jane Doe, a senior front-end developer. The website serves as a showcase for Jane's skills, projects, and experience, offering a clean and responsive design optimized for user experience. It is built using HTML, CSS, and JavaScript with a focus on performance and accessibility.
 
-User Profile
+**User Profile**
 User Persona: Jane Doe
 Name: Jane Doe
 Age: 30
@@ -16,7 +16,7 @@ Access to a concise introduction and background information.
 A clear display of skills and expertise with visual progress indicators.
 Detailed descriptions of portfolio projects with images and relevant links.
 Multiple ways to get in touch, including direct contact info and a web form.
-Information Architecture
+**Information Architecture**
 The website is structured with a clear and straightforward information architecture to ensure ease of navigation and access to content:
 
 Header & Navigation Bar: The header features Jane's name and title, along with a navigation bar that provides quick access to all main sections: About, Skills, Experience, Portfolio, and Contact.
@@ -27,7 +27,7 @@ Portfolio Section: This section features a collection of Jane’s projects with 
 Contact Section: The contact section offers both direct contact information and a contact form, allowing users to reach out easily. It also includes links to Jane's LinkedIn and GitHub profiles for further engagement.
 This layout ensures a cohesive flow of information, allowing users to learn about Jane’s background, see her work, and easily get in touch.
 
-Visual Design
+**Visual Design**
 The visual design focuses on creating a modern, clean, and professional look. Here are the key design elements and decisions:
 
 Color Scheme: The primary color scheme consists of shades of blue (#007BFF) and white (#FFFFFF). Blue is used for headers, buttons, and highlights to convey a sense of trust and professionalism. The background features a soft radial gradient for a subtle visual appeal.
