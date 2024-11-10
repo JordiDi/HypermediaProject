@@ -1,0 +1,228 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: radial-gradient(circle, #f0f2f5, #cfd9df);
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+    background: #007BFF;
+    color: #fff;
+    padding: 40px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    margin: auto;
+}
+
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Skill Bars */
+.skill {
+    position: relative;
+}
+
+.skill-bar {
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+    position: relative;
+}
+
+.skill-bar span {
+    display: block;
+    height: 20px;
+    background: linear-gradient(to right, #007BFF, #00D4FF);
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Percentage Label */
+.skill-percentage {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Portfolio */
+.portfolio-item {
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section Layout */
+#contact {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Contact Content Wrapper */
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Contact Info and Form Styling */
+.contact-info, .contact-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+/* Align content side by side on larger screens */
+@media (min-width: 768px) {
+    .contact-content {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .contact-info, .contact-form {
+        width: 50%;
+    }
+}
+
+/* Form Input Styling */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343A40;
+    color: #fff;
+    margin-top: 40px;
+}
+
+/* Section Dividers */
+section:not(:last-of-type) {
+    border-bottom: 2px dashed #007BFF;
+    margin-bottom: 40px;
+}
+
+/* Centering Content */
+body > *:not(header) {
+    max-width: 900px;
+    margin: auto;
+}
+
+
+/* Text Hover Effect */
+h1:hover, h2:hover {
+    text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700;
+    transition: text-shadow 0.3s ease;
+}
+
+#about {
+    
+    margin-top: 240px; 
+}
+
+#experience p {
+    text-align: justify;
+}
